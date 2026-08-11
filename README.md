@@ -1,3 +1,12 @@
+## Project Highlights
+
+- Analyzed **7,043 customer records** to identify major churn patterns.
+- Compared **5 classification approaches** including Logistic Regression, Decision Tree, and Random Forest models.
+- Used **GridSearchCV and 5-fold cross-validation** for model tuning.
+- Final Random Forest achieved **0.843 ROC-AUC** on the held-out test set.
+- Achieved **76.7% recall** for the churn class.
+- Used **permutation importance** to interpret the final model.
+
 # Customer Churn Prediction & Retention Risk Analysis
 
 An end-to-end machine learning project that analyzes customer churn patterns and develops a predictive model to identify customers at higher risk of churn.

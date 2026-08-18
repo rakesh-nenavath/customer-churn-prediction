@@ -196,14 +196,18 @@ Potential extensions of this project include:
 
 ## 📁 Project Structure
 
+```text
 customer-churn-prediction/
 │
 ├── images/
+│
 ├── notebooks/
 │   └── customer_churn_analysis.ipynb
+│
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 👤 Author
 

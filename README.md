@@ -197,6 +197,15 @@ Based on the observed churn patterns, potential retention strategies include:
 
 These recommendations are based on observed patterns and model-driven risk analysis rather than causal conclusions.
 
+## 📌 Key Takeaways
+
+- Customer contract type and tenure were important signals for churn prediction.
+- Month-to-month customers represented an important high-risk segment.
+- The tuned Random Forest achieved **0.8431 ROC-AUC** on the held-out test set.
+- The model achieved **76.7% recall for churn**, making it useful for identifying a larger share of potentially at-risk customers.
+- Cross-validation produced a mean **ROC-AUC of 0.8490 ± 0.0129**.
+- Model predictions should be interpreted as risk signals rather than causal explanations.
+
 ## ⚠️ Limitations
 
 - The dataset represents a historical snapshot of customer behavior.

@@ -81,7 +81,27 @@ Several customer characteristics were analyzed to understand observed churn patt
 The combination of **Fiber Optic internet service + Month-to-Month contract** showed an observed churn rate of **54.61%** in the analysis.
 
 > These findings represent observed/predictive associations and should not be interpreted as causal relationships.
+### Visualizations
 
+#### Contract vs Churn
+
+![Contract vs Churn](./images/contract_vs_churn.png)
+
+#### Internet Service vs Churn
+
+![Internet Service vs Churn](./images/internetservice_vs_churn.png)
+
+#### Internet Service + Contract vs Churn
+
+![Internet Service + Contract vs Churn](./images/internetservice_contract_vs_churn.png)
+
+#### Monthly Charges by Internet Service
+
+![Monthly Charges by Internet Service](./images/monthlycharges_by_internetservice.png)
+
+#### Numerical Feature Correlation
+
+![Correlation Matrix](./images/correlation_matrix.png)
 
 ## 🤖 Machine Learning Approach
 

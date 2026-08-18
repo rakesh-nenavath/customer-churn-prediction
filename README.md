@@ -54,3 +54,30 @@ Important customer attributes include:
 The blanks were converted to numeric values and handled as `0.0`, consistent with the observation that these records had zero tenure.
 
 The `customerID` column was removed before model development because it is an identifier rather than a predictive customer characteristic.
+
+
+## 🔍 Exploratory Data Analysis
+
+Several customer characteristics were analyzed to understand observed churn patterns.
+
+### Key observations
+
+- **Contract type** showed a strong relationship with churn, with month-to-month customers representing an important high-risk segment.
+- **Tenure** was an important predictive feature, with customers in the early stages of their relationship showing higher observed churn.
+- **Internet service** was associated with different churn patterns across customer segments.
+- **Internet service + contract combinations** were analyzed to identify higher-risk customer groups.
+- **Monthly charges** were compared across different internet service categories.
+- Additional churn rates were analyzed across services such as:
+  - OnlineSecurity
+  - OnlineBackup
+  - DeviceProtection
+  - TechSupport
+  - StreamingTV
+  - StreamingMovies
+  - PaymentMethod
+
+### Important segment finding
+
+The combination of **Fiber Optic internet service + Month-to-Month contract** showed an observed churn rate of **54.61%** in the analysis.
+
+> These findings represent observed/predictive associations and should not be interpreted as causal relationships.

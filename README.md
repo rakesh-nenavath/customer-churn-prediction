@@ -140,6 +140,20 @@ The models were evaluated using classification metrics appropriate for a churn p
 
 Because churn identification is particularly concerned with identifying customers who may leave, recall and ROC-AUC were considered alongside accuracy rather than relying on accuracy alone.
 
+### Model Performance
+
+| Model | Accuracy | Churn Precision | Churn Recall | Churn F1 | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 0.81 | 0.657 | 0.559 | 0.604 | 0.8420 |
+| Decision Tree | 0.72 | 0.480 | 0.492 | 0.480 | 0.6477 |
+| Tuned Decision Tree | 0.80 | 0.630 | 0.567 | 0.600 | 0.8275 |
+| Random Forest | 0.79 | 0.630 | 0.487 | 0.550 | 0.8185 |
+| **Tuned Random Forest** | **0.76** | **0.532** | **0.767** | **0.629** | **0.8431** |
+
+### Cross-Validation
+
+The tuned Random Forest achieved a mean **5-fold ROC-AUC of 0.8490 ± 0.0129**, indicating relatively consistent performance across the validation folds.
+
 ## ⚙️ Hyperparameter Tuning
 
 `GridSearchCV` was used to systematically search for improved model configurations.

@@ -196,7 +196,6 @@ Potential extensions of this project include:
 
 ## 📁 Project Structure
 
-```text
 customer-churn-prediction/
 │
 ├── images/
